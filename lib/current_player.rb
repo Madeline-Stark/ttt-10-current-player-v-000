@@ -3,7 +3,7 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 def current_player(board)
   board.each do |turn_count|
     counter = 0
-  if turn_count = "X" || "O"
+  if turn_count != " "
     counter += 1
   end
   end
