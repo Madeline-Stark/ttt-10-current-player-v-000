@@ -7,7 +7,6 @@ if square = "X" || "O"
   counter += 1
 end
 end
-turn_count(board) = counter
 end
 
 def current_player(board)
