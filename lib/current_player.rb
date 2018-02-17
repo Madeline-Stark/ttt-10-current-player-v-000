@@ -6,6 +6,7 @@ if square = "X" || "O"
   counter += 1
 end
 end
+ counter 
 end
 
 def current_player(board)
