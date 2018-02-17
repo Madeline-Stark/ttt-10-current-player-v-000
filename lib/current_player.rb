@@ -9,8 +9,8 @@ end
 
 def current_player
   if turn_count.even? == true
-    "X"
+    return "X"
   else
-    "O"
+    return "O"
   end
 end
