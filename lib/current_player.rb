@@ -2,7 +2,7 @@
 def turn_count(board)
   counter = 0
 board.each do |square|
-if square = "X" || "O"
+if square == "X" || "O"
   counter += 1
 end
 end
