@@ -9,7 +9,7 @@ end
 end
 
 def current_player
-  if counter.even? = true
+  if counter.even? true
     "X"
   else
     "O"
