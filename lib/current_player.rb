@@ -1,12 +1,15 @@
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+def turn_count(board)
+board.each do |square|
+  counter = 0
+if square = "X" || "O"
+  counter += 1
+end
+end
+end
+
 def current_player(board)
-  board.each do |turn_count|
-    counter = 0
-  if turn_count = "X" || "O"
-    counter += 1
-  end
-  end
   if turn_count.even? true
     return "X"
   else
